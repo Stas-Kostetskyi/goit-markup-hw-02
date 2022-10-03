@@ -14,6 +14,9 @@ body{
 ,logo{
 
 }
+.list{
+    list-style: none;
+}
 .nav-link{
     color: #212121;
 }
@@ -36,4 +39,12 @@ body{
 }
 .filters-button:active{
     color: #2633eb;
+}
+
+
+
+
+
+,footer{
+    background-color: #2F303A;
 }
