@@ -1,7 +1,39 @@
-/* color of main text  #212121 */
-/* secondary color of the text #757575 */
+/* color of main text #757575 */
+/* secondary color of the text #212121 */
 /* basic white text #FFFFFF */
 /* white text in the address rgba(255, 255, 255, 0.6) */
 /* blue text #2196F3 */
+/* first background color #F5F5F5 */
 /* secondary background color #F5F4FA */
 /* cap and footer background color #2F303A */
+body{
+    background-color: #F5F5F5;
+    color: #757575;
+    font-family: roboto;
+}
+,logo{
+
+}
+.nav-link{
+    color: #212121;
+}
+.nav-link:hover,
+.nav-link:focus{
+    color: #2196F3;
+}
+.mail-tel{
+    color: #212121;
+}
+.mail-tel:hover, 
+.mail-tel:focus{
+    color: #2196F3;
+}
+.order:hover, .order:focus,
+.filters-button:hover,
+.filters-button:focus{
+    color: #ffffff;
+    background-color: #2196F3;
+}
+.filters-button:active{
+    color: #2633eb;
+}
