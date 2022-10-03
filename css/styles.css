@@ -6,12 +6,21 @@
 /* first background color #F5F5F5 */
 /* secondary background color #F5F4FA */
 /* cap and footer background color #2F303A */
+
+:root{
+    --primary-text-color: #757575;
+    --tittle-text-color:  #212121;
+    --accent-color: #2196F3;
+}
+
+
+
 body{
-    background-color: #F5F5F5;
+    background-color: #FFFFFF;
     color: #757575;
     font-family: roboto;
 }
-,logo{
+.logo{
 
 }
 .list{
@@ -24,9 +33,16 @@ body{
 .nav-link:focus{
     color: #2196F3;
 }
-.mail-tel{
-    color: #212121;
+.nav .nav-link.current{
+    color: var(--accent-color);
 }
+.mail-tel{
+    color: #757575;
+}
+.address-mail-tel:hover,
+.address-mail-tel:focus
+.footer-mail-tel:hover,
+.footer-mail-tel:focus,
 .mail-tel:hover, 
 .mail-tel:focus{
     color: #2196F3;
@@ -38,13 +54,26 @@ body{
     background-color: #2196F3;
 }
 .filters-button:active{
-    color: #2633eb;
+    color: #e70f33;
+}
+.cap{
+    background-color: #2F303A;
+    color: #ffffff;
+}
+.section-tittle{
+    color: #212121;
 }
 
 
 
 
 
-,footer{
+.footer{
     background-color: #2F303A;
+}
+.address-mail-tel{
+    color: #ffffff;
+}
+.footer-mail-tel{
+    color:rgba(255, 255, 255, 0.6) ;
 }
