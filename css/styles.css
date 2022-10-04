@@ -11,41 +11,100 @@
     --primary-text-color: #757575;
     --tittle-text-color:  #212121;
     --accent-color: #2196F3;
+    --basic-white-text: #FFFFFF;
+    --white-text-address: rgba(255, 255, 255, 0.6);
+    --first-background-color: #F5F5F5;
+    --secondary-background-color: #F5F4FA;
+    --cap-footer-background-color: #2F303A;
 }
-
-
 
 body{
     background-color: #FFFFFF;
     color: #757575;
-    font-family: roboto;
+    font-family:  'Roboto'; 'Helvetica Neue','Tahoma', sans-serif;
 }
-.logo{
+/* font-family: 'Raleway';
+font-style: normal;
+font-weight: 700;
+font-size: 26px;
+line-height: 31px */
 
-}
-.list{
-    list-style: none;
-}
-.nav-link{
-    color: #212121;
-}
-.nav-link:hover,
-.nav-link:focus{
+ 
+/*font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.02em; */
+
+
+/* header */
+
+.logo{
     color: #2196F3;
+    font-family: 'Raleway';
+font-weight: 700;
+font-size: 26px;
+line-height: 1,2;
+}
+.logo-header{
+    color: #000000;
+    font-family: 'Raleway';
+font-weight: 700;
+font-size: 26px;
+line-height: 1,2;
 }
 .nav .nav-link.current{
     color: var(--accent-color);
 }
+.nav-link,
+.nav-link.current{
+    font-family: 'Roboto';
+font-weight: 500;
+font-size: 14px;
+line-height: 1,14; 
+}
+.mail-tel{
+    font-family: 'Roboto';
+font-weight: 500;
+font-size: 14px;
+line-height: 1,14;
+}
+
 .mail-tel{
     color: #757575;
 }
+
+/* main */
+
+.cap > h1{
+    font-family: 'Roboto';
+font-weight: 900;
+font-size: 44px;
+line-height: 1,36;
+}
+.list{
+    list-style: none;
+}
+.proects-link,
+.nav-link{
+    color: #212121;
+}
+.order{
+    cursor: pointer;
+}
+
+
+
+.nav-link:hover,
+.nav-link:focus,
 .address-mail-tel:hover,
-.address-mail-tel:focus
+.address-mail-tel:focus,
 .footer-mail-tel:hover,
 .footer-mail-tel:focus,
 .mail-tel:hover, 
 .mail-tel:focus{
-    color: #2196F3;
+    color: var(--accent-color);
 }
 .order:hover, .order:focus,
 .filters-button:hover,
@@ -64,13 +123,25 @@ body{
     color: #212121;
 }
 
-
-
-
-
+/* footer */
 .footer{
     background-color: #2F303A;
 }
+.logo-footer{
+    color: #ffffff;
+    font-family: 'Raleway';
+font-weight: 700;
+font-size: 26px;
+line-height: 1,2;
+}
+.address-mail-tel, 
+.footer-mail-tel{
+    font-family: 'Roboto';
+font-weight: 400;
+font-size: 14px;
+line-height: 1,7;
+}
+
 .address-mail-tel{
     color: #ffffff;
 }
