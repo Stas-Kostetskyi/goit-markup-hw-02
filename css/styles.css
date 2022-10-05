@@ -97,7 +97,6 @@ Line height: 1,14;
 }
 .features p{
     Font family: 'Roboto';
-font-weight: 400;
 Font size: 14px;
 Line height: 1,71;
 }
@@ -121,7 +120,6 @@ Line height: 2;
 }
 .proects-link > p{
     Font family: 'Roboto';
-font-weight: 400;
 Font size: 16px;
 Line height: 1,88;
 }
