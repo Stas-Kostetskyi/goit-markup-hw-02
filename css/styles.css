@@ -21,7 +21,7 @@
 body{
     background-color: #FFFFFF;
     color: #757575;
-    font-family:  'Roboto'; 'Helvetica Neue','Tahoma', sans-serif;
+    font-family:  'Roboto'; 'Tahoma', sans-serif;
 }
 /* font-family: 'Raleway';
 font-style: normal;
@@ -69,11 +69,9 @@ line-height: 1,14;
 font-weight: 500;
 font-size: 14px;
 line-height: 1,14;
+color: #757575;
 }
 
-.mail-tel{
-    color: #757575;
-}
 
 /* main */
 
@@ -82,6 +80,50 @@ line-height: 1,14;
 font-weight: 900;
 font-size: 44px;
 line-height: 1,36;
+}
+.order{
+    Font family: 'Roboto';
+Font style: Bold;
+font-weight: 700;
+Font size: 16px;
+Line height: 1,88;
+}
+.section-tittle{
+    Font family: 'Roboto';
+Font style: Bold;
+font-weight: 700;
+Font size: 14px;
+Line height: 1,14;
+}
+.features p{
+    Font family: 'Roboto';
+font-weight: 400;
+Font size: 14px;
+Line height: 1,71;
+}
+h2{
+    Font family: 'Roboto';
+font-weight: 700;
+Font size: 36px;
+Line height: 1,17; 
+}
+.filters-button{
+    Font family: 'Roboto';
+font-weight: 500;
+Font size: 16px;
+Line height: 1,62;
+}
+.proects-link > h3{
+    Font family: 'Roboto';
+font-weight: 700;
+Font size: 18px;
+Line height: 2;
+}
+.proects-link > p{
+    Font family: 'Roboto';
+font-weight: 400;
+Font size: 16px;
+Line height: 1,88;
 }
 .list{
     list-style: none;
@@ -93,19 +135,29 @@ line-height: 1,36;
 .order{
     cursor: pointer;
 }
+.cap{
+    background-color: #2F303A;
+    color: #ffffff;
+}
+.section-tittle{
+    color: #212121;
+}
 
+/* -hover-focus-active- */
 
-
-.nav-link:hover,
 .nav-link:focus,
-.address-mail-tel:hover,
 .address-mail-tel:focus,
-.footer-mail-tel:hover,
 .footer-mail-tel:focus,
-.mail-tel:hover, 
 .mail-tel:focus{
     color: var(--accent-color);
 }
+.nav-link:hover,
+.address-mail-tel:hover,
+.footer-mail-tel:hover,
+.mail-tel:hover{
+    color: #2196F3;
+}
+
 .order:hover, .order:focus,
 .filters-button:hover,
 .filters-button:focus{
@@ -115,13 +167,7 @@ line-height: 1,36;
 .filters-button:active{
     color: #e70f33;
 }
-.cap{
-    background-color: #2F303A;
-    color: #ffffff;
-}
-.section-tittle{
-    color: #212121;
-}
+
 
 /* footer */
 .footer{
@@ -134,12 +180,12 @@ font-weight: 700;
 font-size: 26px;
 line-height: 1,2;
 }
-.address-mail-tel, 
-.footer-mail-tel{
+.footer li{
     font-family: 'Roboto';
-font-weight: 400;
+font-style: normal;
+font-weight: 500;
 font-size: 14px;
-line-height: 1,7;
+line-height: 1,7px;
 }
 
 .address-mail-tel{
