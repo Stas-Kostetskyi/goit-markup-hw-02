@@ -13,13 +13,11 @@
 }
 
 body{
-    font-family:  'Roboto'; 'Tahoma', sans-serif;
+    font-family:  'Roboto', sans-serif;
     font-size: 14px;
     letter-spacing: 0.03em;
     background-color: var(--basic-white-text);
-    color: var(--primary-text-color);
-    
-    
+    color: var(--primary-text-color); 
 }
 
 /* header */
@@ -56,10 +54,10 @@ line-height: 1.14;
 
 color: var(--primary-text-color);
 }
+
 a{
 text-decoration: none;
 }
-
 
 /* main */
 
@@ -76,6 +74,7 @@ font-weight: 700;
 font-size: 16px;
 line-height: 1.88;
 text-align: center;
+
 color: var(--basic-white-text);
 background-color: var(--accent-color);
 
@@ -83,10 +82,10 @@ cursor: pointer;
 }
 .section-tittle{
     font-family: 'Roboto', sans-serif;
-font-style: bold;
 font-weight: 700;
 font-size: 14px;
 line-height: 1.14;
+
 color: var(--tittle-text-color);
 }
 .section-name{
@@ -94,6 +93,7 @@ color: var(--tittle-text-color);
 font-weight: 500;
 font-size: 16px;
 line-height: 1.19;
+
 color: var(--tittle-text-color);
 }
 .features p{
@@ -107,6 +107,7 @@ font-weight: 700;
 font-size: 36px;
 line-height: 1.17; 
 text-align: center;
+
 color: var(--tittle-text-color);
 }
 
@@ -114,25 +115,28 @@ color: var(--tittle-text-color);
 font-weight: 500;
 font-size: 16px;
 line-height: 1.63;
+
 color: var(--tittle-text-color);
 }
-.proects-link h2{
+.projects-link h2{
     font-family: 'Roboto', sans-serif;
 font-weight: 700;
 font-size: 18px;
 line-height: 2.0;
 letter-spacing: 0.06em;
+
 color: var(--tittle-text-color);
 }
-.proects-link p{
+.projects-link p{
 font-size: 16px;
 line-height: 1.88;
+
 color: var(--primary-text-color);
 }
 .list{
     list-style: none;
 }
-.proects-link,
+.projects-link,
 .nav-link{
     color: var(--tittle-text-color);
 }
@@ -179,6 +183,7 @@ color: var(--primary-text-color);
 }
 .logo-footer{
     color: var(--basic-white-text);
+
     font-family: 'Raleway', sans-serif;
 font-weight: 700;
 font-size: 26px;
