@@ -1,11 +1,3 @@
-/* color of main text #757575 */
-/* secondary color of the text #212121 */
-/* basic white text #FFFFFF */
-/* white text in the address rgba(255, 255, 255, 0.6) */
-/* blue text #2196F3 */
-/* first background color #F5F5F5 */
-/* secondary background color #F5F4FA */
-/* cap and footer background color #2F303A */
 
 :root{
     --primary-text-color: #757575;
@@ -23,25 +15,12 @@ body{
     color: #757575;
     font-family:  'Roboto'; 'Tahoma', sans-serif;
 }
-/* font-family: 'Raleway';
-font-style: normal;
-font-weight: 700;
-font-size: 26px;
-line-height: 31px */
-
- 
-/*font-family: 'Roboto';
-font-style: normal;
-font-weight: 500;
-font-size: 14px;
-line-height: 16px;
-letter-spacing: 0.02em; */
-
 
 /* header */
 
 .logo{
     color: #2196F3;
+
     font-family: 'Raleway';
 font-weight: 700;
 font-size: 26px;
@@ -49,6 +28,7 @@ line-height: 1,2;
 }
 .logo-header{
     color: #000000;
+
     font-family: 'Raleway';
 font-weight: 700;
 font-size: 26px;
@@ -59,19 +39,18 @@ line-height: 1,2;
 }
 .nav-link,
 .nav-link.current{
-    font-family: 'Roboto';
 font-weight: 500;
 font-size: 14px;
 line-height: 1,14; 
 }
 .mail-tel{
-    font-family: 'Roboto';
 font-weight: 500;
 font-size: 14px;
 line-height: 1,14;
+
 color: #757575;
 }
-.nav a{
+ a{
     text-decoration: none;
 }
 
@@ -79,50 +58,48 @@ color: #757575;
 /* main */
 
 .cap > h1{
-    font-family: 'Roboto';
 font-weight: 900;
 font-size: 44px;
 line-height: 1,36;
+text-align: center;
 }
-.order{
-    Font family: 'Roboto';
-Font style: Bold;
+.order{   
+    font-family:  'Roboto';
 font-weight: 700;
 Font size: 16px;
 Line height: 1,88;
+ text-align: center;
+    
+cursor: pointer;
 }
 .section-tittle{
-    Font family: 'Roboto';
 Font style: Bold;
 font-weight: 700;
 Font size: 14px;
 Line height: 1,14;
 }
 .features p{
-    Font family: 'Roboto';
 Font size: 14px;
 Line height: 1,71;
 }
 h2{
-    Font family: 'Roboto';
 font-weight: 700;
 Font size: 36px;
 Line height: 1,17; 
+ text-align: center;
 }
+
 .filters-button{
-    Font family: 'Roboto';
 font-weight: 500;
 Font size: 16px;
 Line height: 1,62;
 }
 .proects-link > h3{
-    Font family: 'Roboto';
 font-weight: 700;
 Font size: 18px;
 Line height: 2;
 }
 .proects-link > p{
-    Font family: 'Roboto';
 Font size: 16px;
 Line height: 1,88;
 }
@@ -133,9 +110,7 @@ Line height: 1,88;
 .nav-link{
     color: #212121;
 }
-.order{
-    cursor: pointer;
-}
+
 .cap{
     background-color: #2F303A;
     color: #ffffff;
@@ -166,7 +141,7 @@ Line height: 1,88;
     background-color: #2196F3;
 }
 .filters-button:active{
-    color: #e70f33;
+    color: #ff1515;
 }
 
 
@@ -182,7 +157,6 @@ font-size: 26px;
 line-height: 1,2;
 }
 .footer li{
-    font-family: 'Roboto';
 font-style: normal;
 font-weight: 500;
 font-size: 14px;
@@ -195,7 +169,3 @@ line-height: 1,7px;
 .footer-mail-tel{
     color:rgba(255, 255, 255, 0.6) ;
 }
-a[href$="are"],[href$="com"],[href$="111"]{
-    text-decoration: none;
-}
-11111111git ag
