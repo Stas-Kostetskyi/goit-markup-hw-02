@@ -113,7 +113,8 @@ color: var(--tittle-text-color);
 .filters-button{
 font-weight: 500;
 font-size: 16px;
-line-height: 1.62;
+line-height: 1.63;
+color: var(--tittle-text-color);
 }
 .proects-link h2{
     font-family: 'Roboto', sans-serif;
