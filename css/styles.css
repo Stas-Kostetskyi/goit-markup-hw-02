@@ -8,31 +8,37 @@
     --first-background-color: #F5F5F5;
     --secondary-background-color: #F5F4FA;
     --cap-footer-background-color: #2F303A;
+    --logo-second-color: #000000;
+    --order-hover-background: #fbff23;
 }
 
 body{
-    background-color: #FFFFFF;
-    color: #757575;
     font-family:  'Roboto'; 'Tahoma', sans-serif;
+    font-size: 14px;
+    letter-spacing: 0.03em;
+    background-color: var(--basic-white-text);
+    color: var(--primary-text-color);
+    
+    
 }
 
 /* header */
 
 .logo{
-    color: #2196F3;
+    color: var(--accent-color);
 
-    font-family: 'Raleway';
+    font-family: 'Raleway', sans-serif; 
 font-weight: 700;
 font-size: 26px;
-line-height: 1,2;
+line-height: 1.2;
 }
 .logo-header{
-    color: #000000;
+    color: var(--logo-second-color);
 
-    font-family: 'Raleway';
+    font-family: 'Raleway', sans-serif;
 font-weight: 700;
 font-size: 26px;
-line-height: 1,2;
+line-height: 1.2;
 }
 .nav .nav-link.current{
     color: var(--accent-color);
@@ -41,82 +47,98 @@ line-height: 1,2;
 .nav-link.current{
 font-weight: 500;
 font-size: 14px;
-line-height: 1,14; 
+line-height: 1.14; 
 }
 .mail-tel{
 font-weight: 500;
 font-size: 14px;
-line-height: 1,14;
+line-height: 1.14;
 
-color: #757575;
+color: var(--primary-text-color);
 }
- a{
-    text-decoration: none;
+a{
+text-decoration: none;
 }
 
 
 /* main */
 
 .cap > h1{
+    font-family: 'Roboto', sans-serif;
 font-weight: 900;
 font-size: 44px;
-line-height: 1,36;
+line-height: 1.36;
 text-align: center;
 }
 .order{   
-    font-family:  'Roboto';
+    font-family: 'Roboto', sans-serif;
 font-weight: 700;
-Font size: 16px;
-Line height: 1,88;
- text-align: center;
-    
+font-size: 16px;
+line-height: 1.88;
+text-align: center;
+color: var(--basic-white-text);
+background-color: var(--accent-color);
+
 cursor: pointer;
 }
 .section-tittle{
-Font style: Bold;
+    font-family: 'Roboto', sans-serif;
+font-style: bold;
 font-weight: 700;
-Font size: 14px;
-Line height: 1,14;
+font-size: 14px;
+line-height: 1.14;
+color: var(--tittle-text-color);
+}
+.section-name{
+    font-family: 'Roboto', sans-serif;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.19;
+color: var(--tittle-text-color);
 }
 .features p{
-Font size: 14px;
-Line height: 1,71;
+font-size: 14px;
+line-height: 1.71;
 }
-h2{
+.section-work h2,
+.section-team h2{
+    font-family: 'Roboto', sans-serif;
 font-weight: 700;
-Font size: 36px;
-Line height: 1,17; 
- text-align: center;
+font-size: 36px;
+line-height: 1.17; 
+text-align: center;
+color: var(--tittle-text-color);
 }
 
 .filters-button{
 font-weight: 500;
-Font size: 16px;
-Line height: 1,62;
+font-size: 16px;
+line-height: 1.62;
 }
-.proects-link > h3{
+.proects-link h2{
+    font-family: 'Roboto', sans-serif;
 font-weight: 700;
-Font size: 18px;
-Line height: 2;
+font-size: 18px;
+line-height: 2.0;
+letter-spacing: 0.06em;
+color: var(--tittle-text-color);
 }
-.proects-link > p{
-Font size: 16px;
-Line height: 1,88;
+.proects-link p{
+font-size: 16px;
+line-height: 1.88;
+color: var(--primary-text-color);
 }
 .list{
     list-style: none;
 }
 .proects-link,
 .nav-link{
-    color: #212121;
+    color: var(--tittle-text-color);
 }
 
 .cap{
-    background-color: #2F303A;
-    color: #ffffff;
-}
-.section-tittle{
-    color: #212121;
+    background-color: var(--cap-footer-background-color);
+    color: var(--basic-white-text);
 }
 
 /* -hover-focus-active- */
@@ -131,41 +153,46 @@ Line height: 1,88;
 .address-mail-tel:hover,
 .footer-mail-tel:hover,
 .mail-tel:hover{
-    color: #2196F3;
+    color: var(--accent-color);
+}
+.order:hover, .order:focus{
+    color: var(--accent-color);
+    background-color: var(--order-hover-background);
+    
+
 }
 
-.order:hover, .order:focus,
 .filters-button:hover,
 .filters-button:focus{
-    color: #ffffff;
-    background-color: #2196F3;
+    color: var(--basic-white-text);
+    background-color: var(--accent-color);
 }
 .filters-button:active{
-    color: #ff1515;
+    color: var(--logo-second-color);
 }
 
 
 /* footer */
 .footer{
-    background-color: #2F303A;
+    background-color: var(--cap-footer-background-color);
 }
 .logo-footer{
-    color: #ffffff;
-    font-family: 'Raleway';
+    color: var(--basic-white-text);
+    font-family: 'Raleway', sans-serif;
 font-weight: 700;
 font-size: 26px;
-line-height: 1,2;
+line-height: 1.2;
 }
 .footer li{
 font-style: normal;
-font-weight: 500;
+font-weight: 400;
 font-size: 14px;
-line-height: 1,7px;
+line-height: 1.7;
 }
 
 .address-mail-tel{
-    color: #ffffff;
+    color: var(--basic-white-text);
 }
 .footer-mail-tel{
-    color:rgba(255, 255, 255, 0.6) ;
+    color: var(--white-text-address);
 }
